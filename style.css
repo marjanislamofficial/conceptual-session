@@ -59,6 +59,7 @@
 }
 .btn:hover{
     color: black;
+    background-color: aliceblue;
 }
 .about-container{
     display: flex;
@@ -76,4 +77,41 @@
 }
 .description-second{
     padding: 10px;
+}
+
+.box{
+    height: 280px;
+    width: 230px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    box-shadow: 4px 4px 15px rgb(70, 69, 69);
+    align-items: center;
+    border-radius: 10px;
+}
+.icon{
+    width: 78px;
+}
+.service-dev{
+    padding: 10px;
+}
+.service-details{
+    margin-top: 20px;
+}
+.service-container{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+    /* background-image:url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53)); */
+    background-position: center;
+    background-size: cover;
+}
+.backchange{
+    background-image:url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    padding:80px;
+    color:white;
 }
